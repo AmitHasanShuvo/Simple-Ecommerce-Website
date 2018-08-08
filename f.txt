@@ -1,0 +1,150 @@
+<div class="modal fade details-9" id="details-9" tableindex="-1" role="dialog" aria-labelledby="details-9" aria-hidden="true">
+  <link rel="stylesheet" href="css/main.css"/>
+  <div class="modal-dialog modal-lg">
+    <div  class="modal-content">
+      <div class="modal-header">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title text-center">BOOKS</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="center-block">
+                <img src="images/books.jpeg" alt="BOOKS" id="imagess" class="details img-responsive"/>
+              </div>
+            </div>
+            <div class="col-sm-6">
+
+              <h4>DETAILS:</h4>
+              <p>These books are amazing and very interesting.Stock is limited.So get them while they last</p>
+              <hr />
+
+              <!--REMOVING SPACE AND CENTERING IMAGES-->
+               <div class="col-md-2"></div>
+
+              <!--INSERTING BOOKS-->
+              <div class="col-md-8">
+              	<div class="row">
+              		<h2 class="text-center">FEATURED BOOKS</h2>
+              		<div class="col-md-3">
+              			<h4>AUTOBIOGRAPHY</h4>
+              			<img src="images/autobio.png" alt="AUTOBIOGRAPHY" id="images"/>
+              			<p class="list-price text-danger">LIST PRICE: <s>$10.50</s></p>
+              			<p class="price">OUR PRICE: $9.50</p>
+              				<a href="/project/details-modal-autobio.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+              		</div>
+
+                  <div class="col-md-3">
+                    <h4>BIOGRAPHY</h4>
+                    <img src="images/biography.jpg" alt="BIOGRAPHY" id="images"/>
+                    <p class="list-price text-danger">LIST PRICE: <s>$10.20</s></p>
+                    <p class="price">OUR PRICE: $9.20</p>
+                      <a href="/project/details-modal-biography.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+                  </div>
+
+                  <div class="col-md-3">
+                    <h4>ADVENTURE</h4>
+                    <img src="images/adventure.jpg" alt="ADVENTURE" id="images"/>
+                    <p class="list-price text-danger">LIST PRICE: <s>$10.30</s></p>
+                    <p class="price">OUR PRICE: $9.30</p>
+                      <a href="/project/details-modal-adventure.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+                  </div>
+
+                  <div class="col-md-3">
+                    <h4>DRAMA</h4>
+                    <img src="images/drama.jpg" alt="DRAMA" id="images"/>
+                    <p class="list-price text-danger">LIST PRICE: <s>$10.60</s></p>
+                    <p class="price">OUR PRICE: $9.60</p>
+                      <a href="/project/details-modal-drama.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+                  </div>
+
+                  <div class="col-md-3">
+                    <h4>ROMANCE</h4>
+                    <img src="images/romance.jpg" alt="ROMANCE" id="images"/>
+                    <p class="list-price text-danger">LIST PRICE: <s>$10.70</s></p>
+                    <p class="price">OUR PRICE: $9.70</p>
+                      <a href="/project/details-modal-romance.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+                  </div>
+
+                  <div class="col-md-3">
+                    <h4>HORROR</h4>
+                    <img src="images/horror.jpg" alt="HORROR" id="images"/>
+                    <p class="list-price text-danger">LIST PRICE: <s>$10.90</s></p>
+                    <p class="price">OUR PRICE: $9.90</p>
+                      <a href="/project/details-modal-horror.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+                  </div>
+
+                  <div class="col-md-3">
+                    <h4>MYSTRY</h4>
+                    <img src="images/mystry.jpg" alt="MYSTRY" id="images"/>
+                    <p class="list-price text-danger">LIST PRICE: <s>$11.50</s></p>
+                    <p class="price">OUR PRICE: $10.50</p>
+                      <a href="/project/details-modal-mystry.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+                  </div>
+
+                  <div class="col-md-3">
+                    <h4>SCIENCE FICTION</h4>
+                    <img src="images/sciFi.jpg" alt="SCIENCE FICTION" id="images"/>
+                    <p class="list-price text-danger">LIST PRICE: <s>$11.90</s></p>
+                    <p class="price">OUR PRICE: $11.90</p>
+                      <a href="/project/details-modal-sciFi.php" <button type="button" class="btn btn-success">DETAILS</button></a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--DETAILS MODAL-->
+<?php include 'details-modal-levis.php';
+      include 'details-modal-shirts.php';
+      include 'details-modal-football.php';
+			include 'details-modal-boot.php';
+			include 'details-modal-shoes.php';
+			include 'details-modal-bag.php';
+			include 'details-modal-car.php';
+			include 'details-modal-bike.php';
+ ?>

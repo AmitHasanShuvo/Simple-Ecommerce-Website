@@ -1,0 +1,158 @@
+body {
+  width: auto%;
+  font-family: calibri;
+}
+
+#shopping-cart table {
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+#shopping-cart table td {
+  background-color: #FFFFFF;
+}
+
+.txt-heading {
+  padding: 10px 10px;
+  border-radius: 2px;
+  color: #FFF;
+  background: #6aadf1;
+  margin-bottom: 10px;
+	text-align: justify;
+	font-size: 30px;
+}
+
+a.btnRemoveAction {
+  color: #D60202;
+  border: 0;
+  padding: 2px 10px;
+  font-size: 0.9em;
+}
+
+a.btnRemoveAction:visited {
+  color: #D60202;
+  border: 0;
+  padding: 2px 10px;
+  font-size: 0.9em;
+}
+
+#btnEmpty {
+  background-color: #ffffff;
+  border: #FFF 1px solid;
+  padding: 1px 10px;
+  color: #ff0000;
+  font-size: 0.8em;
+  float: right;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btnAddAction {
+  background-color: #eb9e4f;
+  border: 0;
+  padding: 3px 10px;
+  color: #ffffff;
+  margin-left: 2px;
+  border-radius: 2px;
+}
+
+#shopping-cart {
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  border-bottom: #79b946 1px dotted;
+  padding: 10px;
+}
+
+#product-grid {
+  margin-bottom: 30px;
+}
+
+.product-item {
+  float: left;
+  background: #ffffff;
+  margin: 15px 10px;
+  padding: 5px;
+  border: #CCC 1px solid;
+  border-radius: 4px;
+}
+
+.product-item div {
+  text-align: center;
+  margin: 10px;
+}
+
+.product-price {
+  color: #005dbb;
+  font-weight: 600;
+}
+
+.product-image {
+  height: 100px;
+  background-color: #FFF;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.demo-input-box {
+  border-radius: 2px;
+  border: #CCC 1px solid;
+  padding: 2px 1px;
+}
+
+.container{
+	text-align: justify;
+}
+
+
+#navbar {
+  /*background-color:#FFF0000;*/
+  background-color: black;
+
+}
+
+/*change color to white*/
+
+#text {
+  background-color: #000000;
+  color: white;
+}
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(149, 190, 135);
+}
+.checkout{
+	background-color: rgb(77, 195, 52); /* Green */
+	border: none;
+	color: white;
+	padding: 15px 42px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	
+}
