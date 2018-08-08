@@ -14,3 +14,8 @@ CREATE TABLE `users`  (
   `email` varchar(100) NOT NULL, 
   `password` varchar(100) NOT NULL 
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1; 
+
+
+### For add to cart option follow these instructions: 
+ #### 1. Create a databsae named "blog_template"
+ #### 2. Then import the sql of tblproduct.sql
