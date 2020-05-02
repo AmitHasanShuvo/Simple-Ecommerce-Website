@@ -1,4 +1,4 @@
-# Alif_project
+# Simple eCommerce Website
 
 # Project Description
 A simple eCommerce website with registration/login, add to cart, checkout, adding new products by admin features.
