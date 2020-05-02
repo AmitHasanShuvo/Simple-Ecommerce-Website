@@ -1,5 +1,13 @@
 # Alif_project
 
+# Project Description
+A simple eCommerce website with registration/login, add to cart, checkout, adding new products by admin features.
+
+Language used: PHP, MySQL, HTML, CSS <br/>
+Development Tools: VS Code, XAMPP
+
+# How to install
+
 ## Create a database called registration. In the registration database, add a table called users. The users table will take the following four fields.
 
 id
